@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+}
+
+
+.header {
+    background-image:url(images/header/mcdonalds_food_wallpaper_7.jpg);
+    background-position: center;
+    height: 690px;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.body {
+    background-color: snow;
+    width: 100%;
+    height: 80%;
+    padding-top: 3%;
+    text-align:center;
+}
+
+.form {
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+    width: 25%;
+    float: right;
+}
+
+.b-form {
+    width: 100%;
+    border-radius: 20px;  
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 15%;
+}
+
+.s-form {
+    width: 75%;
+    float: left;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    
+}
+
+
+.under_body {
+    background-color: azure;
+    text-align: center;
+    
+}
+
+.upper-footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 20;
+    margin-bottom: 20;
+    margin-left: 300;
+    margin-right: 300;
+    border-radius: 30px;
+}
+
+.bg-dark a:hover,
+.bg-dark a:focus,
+a:hover,
+a:focus {
+    color: #eb3812;
+}
+
+a {
+    color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.Button1 {
+	background-color:#eb1224;
+	-moz-border-radius:26px;
+	-webkit-border-radius:26px;
+	border-radius:26px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'LatoWeb';
+	font-size:14px;
+	padding:14px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b80e1d;
+}
+
+.Button1:hover {
+	background-color:#de1122;
+}
+
+.Button1:active {
+	position:relative;
+	top:1px;
+}
+
+#logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#h1-black {
+    font-family: 'LatoWebHeavy';
+    font-size: 20px;
+    margin-top: 8;
+    margin-bottom: 10;
+    margin-left: 0;
+    margin-right: 0:
+}
+
+#h2 {
+    font-family: 'LatoWeb';
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#h1 {
+    font-family: 'LatoWebMedium';
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+#h3 {
+    font-family: 'LatoWebHairline';
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
+
+#h4 {
+    font-family: 'LatoWebHeavy';
+    color: #eb3812;
+    margin: 20 20 20 20;
+    text-align: center;
+    font-size: 35px;
+}
+
+#p-head {
+    font-family: 'LatoWebMedium';
+    color: #eb3812;
+    margin: 1 1 1 1;
+    text-align: center;
+    font-size: 30px;
+}
+
+#p-1 {
+    font-family: 'LatoWeb';
+    color: black;
+    margin: 1 1 1 1;
+    text-align: center;
+    font-size: 22px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    margin-left: 350;
+    margin-right: 350;
+}
+
+li {
+    float: left;
+    size: 10px;
+    font-family: 'LatoWeb';
+    border: 1px #111;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 10px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #ffd700;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 10px 16px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+input[type=email], select {
+    width: 90%;
+    padding: 10px 16px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+input[type=time], select {
+    width: 90%;
+    padding: 10px 16px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+input[type=tel], select {
+    width: 90%;
+    padding: 10px 16px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #db1020;
+    color: white;
+    padding: 14px 0px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'LatoWeb';
+    font-size: 12px;
+}
+
+input[type=submit]:hover {
+    background-color: #dd1021;
+    font-size: 12px;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-family: 'LatoWebMedium';
+    font-size: 12px;
+}
+
+label {
+    font-family: 'LatoWeb';
+    font-size: 12px;
+    margin: 1 1 1 1;
+    text-align: left;
+}
+option {
+    font-family: 'LatoWeb';
+    font-size: 15px;
+    margin: 2 2 2 2;
+    text-align: left;
+}
+select {
+    font-family: 'LatoWeb';
+    font-size: 15px;
+    margin: 2 2 2 2;
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+#a {
+    color: #d2d2d2;
+    text-align: center;
+    font-family: 'LatoWeb';
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+}
+
+#p {
+    color: #d2d2d2;
+    font-family: 'LatoWebMedium';
+    font-size: 15px;
+    text-align: center;
+    margin: 1;
+}
+
+span {
+    color: #d2d2d2;   
+    font-family: 'LatoWebBold';
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.under-footer {
+    margin: 0;
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+    height: 280px;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding:55px 250px 55px 250px;
+}
+
+.footer .footer-left {
+    width: 35%;
+    display: inline-block;
+	vertical-align: top;
+}
+
+.footer h3{
+	color:  #ffffff;
+	font: normal 26px 'LatoWebBold';
+	margin: 0;
+}
+
+.footer .footer-text1 p {
+    margin: 5;
+}
+
+.footer .footer-text1 a{
+    color: white;
+    font: normal 18px 'LatoWebHairline';
+    margin: 0;
+    text-decoration: none;
+}
+
+.footer .footer-center{
+	width: 35%;
+    display: inline-block;
+	vertical-align: top;
+}
+
+.footer .footer-center h4{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+    font: normal 26px 'LatoWebBold';
+}
+.footer .footer-center p{
+	color: #ffffff;
+	margin:5;
+    font: normal 18px 'LatoWebHairline';
+}
+
+.footer .footer-center p a{
+	color:  white;
+	text-decoration: none;
+}
+
+.footer .footer-right{
+	width: 20%;
+    display: inline-block;
+	vertical-align: ;
+}
+
+.footer .footer-right h4{
+
+	color: #ffffff;
+	vertical-align: center;
+	margin:0;
+    font: normal 26px 'LatoWebBold';
+}
+.footer .footer-right p{
+	color: #ffffff;
+	margin:5;
+    font: normal 18px 'LatoWebHairline';
+}
+
+.footer .footer-right p a{
+	color:  white;
+	text-decoration: none;
+}
+
